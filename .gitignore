@@ -1,0 +1,65 @@
+# Logs
+logs/
+*.log
+log_*.txt
+
+# Backups
+backups/
+test_backups/
+*.tar.gz
+*.zip
+
+# Test data
+test_data/
+test_logs/
+test_config/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.bak
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# Configuration backups
+*.conf.bak
+config/*.bak
+
+# Downloaded packages
+*.deb
+*.rpm
+
+# Cache directories
+.cache/
+.npm/
+
+# System specific
+*.pid
+*.seed
+*.pid.lock
+
+# Backup rotation
+*.old
+*.backup
+*~
+
+# Test output
+test_results/
+coverage/
+
+# Local configuration
+local_config.conf
+personal_config.conf
